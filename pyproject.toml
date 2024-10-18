@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "buck-ai-guide-student-orgs"
+version = "0.1.0"
+description = "Streamit RAG app utilizing LangChain, Openai, and Pinecone to recommend OSU student organizations to users."
+authors = ["Keming He <keminghe.career@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.39.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
